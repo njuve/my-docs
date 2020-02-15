@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://s-nrsw.com/"
+baseURL = "https://brave-bartik-37a180.netlify.com/"
 # theme
 theme = "dot"
 # site title
