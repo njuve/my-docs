@@ -2,14 +2,14 @@ body {
   line-height: 1.5;
   font-family: var(--font-family), sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 17px;
-  color: var(--text-color);
+  font-size: 20px;
+  color: var(--text-color-dark);
   background-color: var(--secondary-color);
 }
 
 P {
-  color: var(--text-color);
-  font-size: 15px;
+  color: var(--text-color-dark);
+  font-size: 20px;
 }
 
 h1,
@@ -191,6 +191,7 @@ button:focus,
 select:focus {
   outline: 0;
 }
+
 
 .slick-slide {
   outline: 0;
@@ -882,13 +883,14 @@ p a:empty {
 
 pre {
   display: block;
-  padding: 9.5px;
+  padding: 0px;
   margin: 10px 0px 10px;
 }
 
 code {
   margin-bottom: 0 !important;
-  font-size: 100%;
+  font-size: 80%;
+  background-color: whitesmoke;
 }
 
 .code-tabs {

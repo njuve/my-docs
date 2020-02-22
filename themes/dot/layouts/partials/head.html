@@ -6,7 +6,7 @@
 
   {{ "<!-- mobile responsive meta -->" | safeHTML }}
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  
+
   {{ "<!-- ** Plugins Needed for the Project ** -->" | safeHTML }}
   {{ "<!-- Bootstrap -->" | safeHTML }}
   <link rel="stylesheet" href="{{ `plugins/bootstrap/bootstrap.min.css` | absURL }}">
@@ -22,7 +22,7 @@
 
   {{ "<!-- fonts -->" | safeHTML }}
   <link href="https://fonts.googleapis.com/css?family={{replace .Site.Params.font_family ' ' '+' | title}}:300,400,700&display=swap" rel="stylesheet">
-  
+
   <style>
   :root{
     --primary-color:{{ .Site.Params.primary_color }};
@@ -33,6 +33,11 @@
     --font-family:{{ replace .Site.Params.font_family ' ' '+' | title }};
   }
   </style>
+
+  <!-- MathJax -->
+	{{ if .Params.mathjax }}
+    {{ partial "mathjax_support.html" . }}
+  {{ end }}
 
 {{ "<!-- Main Stylesheet -->" | safeHTML }}
 {{ $styles := resources.Get "css/style.css" | minify}}

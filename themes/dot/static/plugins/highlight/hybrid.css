@@ -9,7 +9,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  background: #1d1f21;
+  background: rgb(33, 43, 39);
 }
 
 /*selection color*/
@@ -25,7 +25,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 
 /*foreground color*/
 .hljs {
-  color: #c5c8c6;
+  color: #d3d6d3;
 }
 
 /*color: fg_yellow*/
@@ -57,7 +57,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .hljs-regexp,
 .hljs-selector-attr,
 .hljs-selector-pseudo {
-  color: #b5bd68;
+  color: #c3cf56;
 }
 
 /*color: fg_purple*/
@@ -72,7 +72,7 @@ vim-hybrid theme by w0ng (https://github.com/w0ng/vim-hybrid)
 .hljs-selector-tag,
 .hljs-bullet,
 .hljs-tag {
- color: #81a2be;
+ color: rgb(202, 121, 189);
 }
 
 /*color: fg_aqua*/
