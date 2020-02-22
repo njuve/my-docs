@@ -1,7 +1,7 @@
 ---
 title: "Localization"
 date: 2020-02-22T23:38:35+09:00
-draft: true
+draft: False
 mathjax: true
 ---
 # Aim
