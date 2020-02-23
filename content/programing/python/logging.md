@@ -6,8 +6,8 @@ draft: False
 
 # Summary
 
-Official document is [logging — Logging facility for Python](https://docs.python.org/3/library/logging.html).
-Nice article written in japanese is [Pythonでロギングを学ぼう](https://qiita.com/__init__/items/91e5841ed53d55a7895e).
+The official document is [logging — Logging facility for Python](https://docs.python.org/3/library/logging.html).
+A nice article written in japanese is [Pythonでロギングを学ぼう](https://qiita.com/__init__/items/91e5841ed53d55a7895e).
 
 Main functions in `logging` are:
 
