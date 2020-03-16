@@ -601,11 +601,12 @@ textarea.form-control {
 
 .content ul {
   padding-left: 0;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .content ul li {
   padding-left: 20px;
+  margin-bottom: 5px;
   position: relative;
 }
 
@@ -646,12 +647,12 @@ textarea.form-control {
 }
 
 blockquote {
-  font-size: 20px !important;
+  font-size: 17px !important;
   color: var(--text-color-dark);
-  padding: 20px 40px;
+  padding: 10px 10px;
   border-left: 2px solid var(--primary-color);
-  margin: 40px 0;
-  font-weight: bold;
+  margin: 0px 0;
+  /* font-weight: bold; */
   background: #f9f9f9;
 }
 
@@ -668,7 +669,7 @@ blockquote p {
 }
 
 .pagination i {
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.8;
 }
 
