@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 # provide your domain here
-baseURL = "https://brave-bartik-37a180.netlify.com/"
+baseURL = "https://n-mydocs.netlify.com/"
 # theme
 theme = "dot"
 # site title
@@ -8,7 +8,8 @@ title = "My docs"
 # desable language
 disableLanguages = []
 defaultContentLanguage = "ja"
-
+pygmentsUseClasses = true
+pygmentsCodefences = true
 ############################# Default Parameters ##########################
 [params]
 # logo is for all page
@@ -25,11 +26,12 @@ text_color_dark = "#242738"
 white_color = "#ffffff"
 
 # font family
-font_family = "lato" # Choose font family from : https://fonts.google.com/
+font_family = "Source Sans Pro" # Choose font family from : https://fonts.google.com/
 
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 
+mathjaxStyle = "mathjax-style.css"
 ############################## social links ##############################
 [[params.social]]
 icon = "ti-facebook" # themify icon pack : https://themify.me/themify-icons
