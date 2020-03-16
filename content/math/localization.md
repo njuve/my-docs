@@ -11,9 +11,13 @@ Aim of this article is to understand the localization of $F[q]$ at the ideal $(q
 # Localization
 Let $A$ be an integral domain.
 
-$S$ is __multiplicatively closed__ if $S$ satifies
-1. $1 \in S$,
-2. $a, b \in S \Rightarrow ab \in S$.
+
+>$S$ is __multiplicatively closed__ if $S$ satifies
+>
+>- $1 \in S$,
+>
+>- $a, b \in S \Rightarrow ab \in S$.
+
 
 For $(a, s), (b, t) \in A \times S$, we define the relation $R$ in $(A \times S)$:
 $$
@@ -21,14 +25,14 @@ $$
 $$
 
 $R$ is a equivalence relation, then we can consider its quontient $A/R$.
-we denote $A/R$ by $A_S$ and $(a, s) \in A_S$ by $\frac{a}{s}$. Also, its operations are defined by
+we denote $A/R$ by $A_S$ and $(a, s) \in A_S$ by $a/s$. Also, its operations are defined by
 $$
 \frac{a}{s} + \frac{b}{t} = \frac{at - bs}{st}, \quad \frac{a}{s} \cdot \frac{b}{t} = \frac{ab}{st}
 $$
 
 $A_S$ is called the __localization__ of $A$ at $S$.
 
-We can consider a hom from $A$ to $A_S$ by $a \to \frac{a}{1}$. For $s \in S$, $s$ is $\frac{s}{1}$ in $A_S$ and there exists $\frac{1}{s} \in A_S$, then $\frac{s}{1} \in A^{\times}$. Thus localization is like creating inverse elements for elements of $S$ (if $A$ is integral domain).
+We can consider a hom from $A$ to $A_S$ by $a \to a/1$. For $s \in S$, $s$ is $s/1$ in $A_S$ and there exists $1/s \in A_S$, then $s/1 \in A^{\times}$. Thus localization is like creating inverse elements for elements of $S$ (if $A$ is integral domain).
 
 ## Example1
 
@@ -74,11 +78,11 @@ $$
 \end{align*}
 $$
 
-## Localization at $(q^{-1})$
+## Localization at $(x^{-1})$
 __Remark__
 I don't understood about this example well.
 
-Set $A = F(x)$. We will consider the locarization at $(q^{-1})$. At this time, we consider $\infty$ as formal element and denote $A_S$ by $A_{\infty}$.
+Set $A = F(x)$. We will consider the locarization at $(x^{-1})$. At this time, we consider $\infty$ as formal element and denote $A_S$ by $A_{\infty}$.
 $$
 \begin{align*}
     A_{\infty} &= \\{ a/s \mid a \in A, s \in S\\} \\\\
