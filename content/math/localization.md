@@ -79,10 +79,7 @@ $$
 $$
 
 ## Localization at $(x^{-1})$
-__Remark__
-I don't understood about this example well.
-
-Set $A = F(x)$. We will consider the locarization at $(x^{-1})$. At this time, we consider $\infty$ as formal element and denote $A_S$ by $A_{\infty}$.
+Set $A = F(x^{-1})$. We will consider the locarization at $(x^{-1})$. At this time, we consider $\infty$ as formal element and denote $A_S$ by $A_{\infty}$.
 $$
 \begin{align*}
     A_{\infty} &= \\{ a/s \mid a \in A, s \in S\\} \\\\
