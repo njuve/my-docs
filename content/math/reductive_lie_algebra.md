@@ -8,7 +8,7 @@ mathjax: true
 # Definition
 Let $\mathfrak{g}$ be a finite dimentional lie algebra.
 
->$\mathfrak{g}$ is **reductive** if there exist a semisimple lie algebra $\mathfrak{a}$ s.t. $\mathfrak{g} =  \mathfrak{a} \oplus \mathfrak{c}$ where $\mathfrak{c}$ is the center of $\mathfrak{g}$.
+>$\mathfrak{g}$ is called **reductive** if there exist a semisimple lie algebra $\mathfrak{a}$ s.t. $\mathfrak{g} =  \mathfrak{a} \oplus \mathfrak{c}$ where $\mathfrak{c}$ is the center of $\mathfrak{g}$.
 
 $\mathfrak{g}$ is reductive means the adjoint representation is a completely reducible.
 
@@ -45,4 +45,10 @@ $$
     &= \mathbb{C}E_{12} \oplus \mathbb{C}(E_{11} - E_{22}) \oplus \mathbb{C} E_{21} \oplus \mathbb{C} (E_{11} + E_{22})
 \end{align*}
 $$
+
+## Example
+Crealy a semisimple lie algebra is reductive.
+
 ## Ref
+- [Wikipedia](https://en.wikipedia.org/wiki/Reductive_Lie_algebra)
+- [nLab](https://ncatlab.org/nlab/show/reductive+Lie+algebra)
